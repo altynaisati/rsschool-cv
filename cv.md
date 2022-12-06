@@ -57,6 +57,8 @@ I like  learning new things and always challange myself.
  
  Russian (intermediate)
  
+ Turkish (intermediate)
+ 
  English (A2)
  
  
