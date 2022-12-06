@@ -50,6 +50,16 @@ I like  learning new things and always challange myself.
  <a href="#">https://www.freecodecamp.org/</a>
  
  <a href="#">https://learn.javascript.ru/</a>
+ 
+ ### Languages🌐
+ 
+ Kyrgyz (native)
+ 
+ Russian (intermediate)
+ 
+ English (A2)
+ 
+ 
 
 
 
