@@ -40,6 +40,16 @@ I like  learning new things and always challange myself.
           }
       }
      };
+     
+     
+### Education 🎓
+<a href="#">Kyrgyz-Turkish “Manas” University</a>
+
+  Department of Translations
+  
+ <a href="#">https://www.freecodecamp.org/</a>
+ 
+ <a href="#">https://learn.javascript.ru/</a>
 
 
 
