@@ -1,1 +1,366 @@
+@import url('Source+Serif+Pro:ital,wght@0,900;1,400;1,700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    outline-offset: none;
+    box-sizing: border-box;
+    text-decoration: none;
+    text-transform: capitalize;
+    list-style: none;
+    transition: all 0.5s linear;
+    scroll-behavior: smooth;
+}
 
+
+:root{
+    --white:#F0E3CA;
+    --bg:#000;
+    --main:#21201D;
+    --normal:var(--normal);
+    --main-color:#FC490B;
+
+
+    --container-width-lg:80%;
+    --container-width-md:90%;
+    --container-width-sm:94%;
+}
+
+body{
+    font-family: 'Source Serif Pro', serif;
+    line-height: 1.7;
+    background-color: var(--bg);
+}
+
+.container {
+    width: var(--container-width-lg);
+    margin: 0 auto;
+}
+
+section {
+    padding: 6rem 0;
+}
+
+section h2{
+    text-align: center;
+    margin-bottom: 5rem;
+}
+h1,h2,h3,h4,h5{
+    line-height: 1.2;
+    color:var(--white);
+}
+
+h1{
+    font-size: 2.4rem;
+}
+
+h2{
+    font-size: 2rem;
+    /* color: #F0E3CA; */
+}
+
+h3{
+    font-size: 1.6rem;
+}
+
+h4{
+    font-size: 1.3rem;
+}
+
+a{
+    color: var(--normal);
+}
+
+img{
+    width:400px;
+    padding: 30px;
+
+}
+.nav{
+    background-color: var(--black);
+    width: 100vw;
+    height: 5rem;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+}
+
+.nav_container{
+    display: flex;
+    height: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav_container span{
+    color: var(--main-color);
+}
+.nav_container h4{
+    font-size: 1.8rem;
+}
+.nav_container h4::first-letter{
+    font-size: 2rem;
+}
+.nav_container h4:hover{
+    color: var(--main-color);
+    transform: rotateX(360deg);
+    transition-duration: 1.2s;
+}
+.nav_menu{
+    display: flex;
+    align-self: center;
+    gap: 4rem;
+    color:var(--main-color);
+    padding: 30px ;
+}
+.nav_menu a{
+    font-size: 1rem;
+
+}
+.nav_menu a:hover{
+    color: var();
+    border-bottom: 3px solid var(--white);
+    padding-bottom: 0.8rem;
+    background-color: var(--black);
+}
+
+.header{
+    position: relative;
+    top: 5rem;
+    overflow: hidden;
+    margin-bottom: 2rem;
+    background-color: var(--black);
+}
+
+.header_container{
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.header_left{
+    flex: 1;
+}
+
+.header_right{
+    flex: 1;
+}
+.header_right .text-1{
+    font-size: 1.8rem;
+    margin-bottom: 0.3rem;
+    color: var(--white);
+
+}
+.header_right .text-2{
+    font-size: 3.6rem;
+    font-weight: 550;
+    color:var(--white);
+}
+.header_right .text-3{
+    font-size: 2.5rem;
+    margin: 0.3rem 0;
+    color: #F0E3CA;
+
+   
+}
+.header_right .text-3 span{
+    font-size: 3rem;
+    color:#FFD43B; ;
+}
+
+
+
+.header::before{
+    content: "";
+    position: absolute;
+    background-color: var(--white);
+    width: 100%;
+    height: 5rem;
+    bottom: 0;
+    margin-bottom: -3.1rem;
+    z-index: 99;
+    transform: skewY(-2deg);
+    transform-origin: left;
+}
+
+.header_right .typing{
+    color: var(--primary);
+    font-weight: 500;
+}
+
+
+.main_container{
+    display: flex;
+    margin: auto;
+    align-items: center;
+    position: relative;
+    margin-bottom: 2.5rem;
+}
+
+.main_container .main_img{
+    border:  3px solid var(--main-color);
+    border-radius: 50%;
+    margin-right: 2rem;
+    position: relative;
+    align-items: center;
+    margin-bottom: 2rem;
+   
+  
+}
+.main_container .main_text{
+    max-width: 70%;
+    text-align: center;
+    line-height: 3rem;
+    padding-bottom: 2.5rem;
+    color: #F0E3CA;
+}
+.main_container .main_text p{
+    margin-bottom: 0.8rem;
+}
+.main_container .main_text{
+    margin-bottom: 1rem;
+}
+.skiils{
+    text-align: center;
+    margin-top: -5rem;
+}
+
+.skiils_container .cards{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 3rem;
+}
+.skiils_container .cards .card{
+    background-color:var(--main-color);
+    padding: 1.5rem  1rem;
+    margin: 0 1.5rem;
+    cursor: pointer;
+    position: relative;
+}
+
+.sbox i{
+    font-size: 2rem;
+    width: 4rem;
+    height: 4rem;
+    color: #F0E3CA;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    padding: 0.933rem;
+    transition: all 1s;
+}
+
+.sbox i:hover{
+    color:#FFD43B;
+}
+
+.sbox h3{
+    font-size: 1rem;
+}
+.languages_container .text{
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+.education_section h2{
+    text-align: center;
+    margin-bottom: 5rem;
+}
+.edu_content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    
+
+}
+
+.edu_content .edu_title{
+    color:var(--main-color);
+    font-size: 1.5rem;
+}
+
+
+
+.languages {
+    text-align: center;
+    margin-bottom: -5rem;
+}
+.lan_container .lcards{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 3rem;
+}
+
+.lan_container .lcards .lcard{
+    background-color:var(--main);
+    padding: 1.5rem  1rem;
+    margin: 0 1.5rem;
+    cursor: pointer;
+    position: relative;
+}
+
+.lbox h3{
+    font-size: 2rem;
+    color: #FC490B;
+}
+
+.lbox p{
+    font-size: 1rem;
+    color: #F0E3CA;
+}
+
+
+.my_code{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    
+ }
+ 
+ .code_container p{
+     display: flex;
+     align-items: center;
+     flex-direction: column;
+     justify-content: center;
+     color: #F0E3CA;
+     font-size: 30px;
+     font-weight: bold;
+     margin-bottom: 25px;
+ }
+ 
+ footer{
+    position: relative;
+    width: 100%;
+    height: 100px;
+    background: #21201D;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+ }
+.social{
+    display: flex;
+}
+ .social a{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px;
+    color: #F0E3CA;
+    font-size: 20px;
+    
+ }
+ .social img {
+    height: 100px;
+ }
+
+ .social a:hover{
+    color: #FC490B;
+ }
+ 
