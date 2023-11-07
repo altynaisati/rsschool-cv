@@ -27,4 +27,10 @@ I'm self-taught frontend developer and I'm hoping to enter the market in this ye
                    const twoByTwo = multiply(2,3)
 
   ### Education
-  
+  #### Udemy
+  * The Complete JavaScript Course 2023: From Zero to Expert!
+
+  #### Bishkek State University
+  * Faculty of Social-Humanitarian Sciences
+
+    
