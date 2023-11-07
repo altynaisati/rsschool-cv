@@ -33,4 +33,10 @@ I'm self-taught frontend developer and I'm hoping to enter the market in this ye
   #### Bishkek State University
   * Faculty of Social-Humanitarian Sciences
 
+    ### Languages
+    * Kyrgyz(native)
+    * Russian(intermediate)
+    * English(b1)
+    * Turkish(intermediate)
+
     
